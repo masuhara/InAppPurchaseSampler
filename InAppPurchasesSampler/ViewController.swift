@@ -12,11 +12,16 @@ import SwiftyStoreKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet var label: UILabel!
+    var number: Int!
+    
     let bundleId = "net.masuhara.BaseballQuiz"
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        number = 0
+        label.text = String(number)
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,6 +48,10 @@ class ViewController: UIViewController {
             switch result {
             case .Success(let productId):
                 print("Purchase Success: \(productId)")
+                
+                self.number = self.number + 10
+                self.label.text = String(self.number)
+                
                 break
             case .Error(let error):
                 if case ResponseError.RequestFailed(let internalError) = error where internalError.domain == SKErrorDomain {
@@ -77,19 +86,23 @@ class ViewController: UIViewController {
     
     // MARK: - Purchase
     @IBAction func purchaseItem() {
-        self.retriveProducts("life")
+        // self.retriveProducts("life")
+        self.purchaseProduct("life")
     }
     
     @IBAction func purchase_1month() {
-        self.retriveProducts("1month")
+        // self.retriveProducts("1month")
+        self.purchaseProduct("1month")
     }
 
     @IBAction func purchase_3months() {
-        self.retriveProducts("3month")
+        // self.retriveProducts("3month")
+        self.purchaseProduct("3month")
     }
 
     @IBAction func purchase_6months() {
-        self.retriveProducts("6month")
+        // self.retriveProducts("6month")
+        self.purchaseProduct("6month")
     }
 
 }
