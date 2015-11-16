@@ -14,7 +14,6 @@
 		7A9EBEE81BF73D7E00C88B43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EBEE71BF73D7E00C88B43 /* ViewController.swift */; };
 		7A9EBEEB1BF73D7E00C88B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9EBEE91BF73D7E00C88B43 /* Main.storyboard */; };
 		7A9EBEED1BF73D7E00C88B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9EBEEC1BF73D7E00C88B43 /* Assets.xcassets */; };
-		7A9EBEF01BF73D7E00C88B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9EBEEE1BF73D7E00C88B43 /* LaunchScreen.storyboard */; };
 		88CEA5F48AE38A3ECC35D7D2 /* Pods_InAppPurchasesSampler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B93D3FE803481BD51B33D6F3 /* Pods_InAppPurchasesSampler.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		7A9EBEE71BF73D7E00C88B43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A9EBEEA1BF73D7E00C88B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A9EBEEC1BF73D7E00C88B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A9EBEEF1BF73D7E00C88B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A9EBEF11BF73D7E00C88B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B93D3FE803481BD51B33D6F3 /* Pods_InAppPurchasesSampler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InAppPurchasesSampler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8E9E26F4DFCE9977EF37C1 /* Pods-InAppPurchasesSampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InAppPurchasesSampler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InAppPurchasesSampler/Pods-InAppPurchasesSampler.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 				7A9EBEE71BF73D7E00C88B43 /* ViewController.swift */,
 				7A9EBEE91BF73D7E00C88B43 /* Main.storyboard */,
 				7A9EBEEC1BF73D7E00C88B43 /* Assets.xcassets */,
-				7A9EBEEE1BF73D7E00C88B43 /* LaunchScreen.storyboard */,
 				7A9EBEF11BF73D7E00C88B43 /* Info.plist */,
 			);
 			path = InAppPurchasesSampler;
@@ -188,7 +185,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A9EBEF01BF73D7E00C88B43 /* LaunchScreen.storyboard in Resources */,
 				7A8B56501BF9BEB10040EB36 /* Default-568h@2x.png in Resources */,
 				7A9EBEED1BF73D7E00C88B43 /* Assets.xcassets in Resources */,
 				7A9EBEEB1BF73D7E00C88B43 /* Main.storyboard in Resources */,
@@ -266,14 +262,6 @@
 				7A9EBEEA1BF73D7E00C88B43 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7A9EBEEE1BF73D7E00C88B43 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A9EBEEF1BF73D7E00C88B43 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -370,7 +358,7 @@
 				INFOPLIST_FILE = InAppPurchasesSampler/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.masuhara.InAppPurchasesSampler;
+				PRODUCT_BUNDLE_IDENTIFIER = net.masuhara.BaseballQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -386,7 +374,7 @@
 				INFOPLIST_FILE = InAppPurchasesSampler/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.masuhara.InAppPurchasesSampler;
+				PRODUCT_BUNDLE_IDENTIFIER = net.masuhara.BaseballQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

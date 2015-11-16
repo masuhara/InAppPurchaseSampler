@@ -16,6 +16,36 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYs-Df-bdH">
+                                <rect key="frame" x="127" y="269" width="67" height="30"/>
+                                <state key="normal" title="1ヶ月課金"/>
+                                <connections>
+                                    <action selector="purchase_1month" destination="BYZ-38-t0r" eventType="touchUpInside" id="wH4-3T-JW9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3z-Wg-PXE">
+                                <rect key="frame" x="125" y="382" width="70" height="30"/>
+                                <state key="normal" title="6ヶ月課金"/>
+                                <connections>
+                                    <action selector="purchase_6months" destination="BYZ-38-t0r" eventType="touchUpInside" id="cDl-Jb-8xw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6P-qn-eth">
+                                <rect key="frame" x="115" y="181" width="90" height="30"/>
+                                <state key="normal" title="アイテム課金"/>
+                                <connections>
+                                    <action selector="purchaseItem" destination="BYZ-38-t0r" eventType="touchUpInside" id="mka-X7-ouy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FrX-az-OdP">
+                                <rect key="frame" x="125" y="325" width="70" height="30"/>
+                                <state key="normal" title="3ヶ月課金"/>
+                                <connections>
+                                    <action selector="purchase_3months" destination="BYZ-38-t0r" eventType="touchUpInside" id="KbH-BB-edu"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
