@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A96688A6FBABF3033FF28D43B4FC246C /* PBXContainerItemProxy */ = {
+		FB51D8F176C692EADC94028ABDB9DDA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -204,7 +204,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C026957F62A73303B37F8DF0505E2E86 /* PBXTargetDependency */,
+				012D3CD7A642E596308A387E46291DBA /* PBXTargetDependency */,
 			);
 			name = "Pods-InAppPurchasesSampler";
 			productName = "Pods-InAppPurchasesSampler";
@@ -278,11 +278,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C026957F62A73303B37F8DF0505E2E86 /* PBXTargetDependency */ = {
+		012D3CD7A642E596308A387E46291DBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyStoreKit;
 			target = 8FA5986AB314E9C1E3EEE743A95FBF0D /* SwiftyStoreKit */;
-			targetProxy = A96688A6FBABF3033FF28D43B4FC246C /* PBXContainerItemProxy */;
+			targetProxy = FB51D8F176C692EADC94028ABDB9DDA7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
